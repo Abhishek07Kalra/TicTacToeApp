@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         if(playerTurn) {
             val but = view as Button
             var cellID = 0
+            //Toast.makeText(this,but.id.toString() , Toast.LENGTH_SHORT).show();
             when (but.id) {
                 R.id.button -> cellID = 1
                 R.id.button2 -> cellID = 2

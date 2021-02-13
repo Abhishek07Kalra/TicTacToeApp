@@ -17,7 +17,7 @@ class Firstpage : AppCompatActivity() {
             singleUser = true;
         }
         button12.setOnClickListener {
-            startActivity(Intent(this , MainActivity::class.java))
+            startActivity(Intent(this , SecondPage::class.java))
             singleUser = false;
         }
     }
